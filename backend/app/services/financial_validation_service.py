@@ -84,6 +84,13 @@ def _find_field(
             continue
 
         for alias in normalized_aliases:
+            # Prevent a generic extracted field named "total" from
+            # being interpreted as a more specific field such as
+            # "total discount", while preserving the existing
+            # bidirectional fuzzy matching used by other documents.
+            if field_name == "total" and "discount" in alias:
+                continue
+
             if (
                 alias in field_name
                 or field_name in alias
@@ -315,6 +322,7 @@ def _validate_invoice(
         [
             "total_amount",
             "total amount",
+            "total",
             "grand total",
             "invoice total",
             "amount due",

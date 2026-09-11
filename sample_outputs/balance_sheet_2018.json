@@ -1,0 +1,538 @@
+{
+  "id": 3,
+  "document_name": "Consolidated Balance Sheet 2018.pdf",
+  "document_type": "balance_sheet",
+  "processing_status": "PASS",
+  "extraction_result": {
+    "document_type": "balance_sheet",
+    "metadata": {
+      "document_title": "Consolidated Balance Sheet",
+      "document_date": "March 31, 2018",
+      "vendor_name": null,
+      "customer_name": null,
+      "entity_name": "HDFC Bank Limited",
+      "currency": "INR"
+    },
+    "periods": [
+      "31-Mar-18",
+      "31-Mar-17"
+    ],
+    "fields": [
+      {
+        "field_name": "Capital",
+        "value": "5,190,181",
+        "normalized_number": 5190181,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "5,190,181",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Capital",
+        "value": "5,125,091",
+        "normalized_number": 5125091,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "5,125,091",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Reserves and surplus",
+        "value": "1,090,801,062",
+        "normalized_number": 1090801062,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "1,090,801,062",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Reserves and surplus",
+        "value": "912,814,397",
+        "normalized_number": 912814397,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "912,814,397",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Minority interest",
+        "value": "3,563,322",
+        "normalized_number": 3563322,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "3,563,322",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Minority interest",
+        "value": "2,914,389",
+        "normalized_number": 2914389,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "2,914,389",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Deposits",
+        "value": "7,883,751,419",
+        "normalized_number": 7883751419,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "7,883,751,419",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Deposits",
+        "value": "6,431,342,479",
+        "normalized_number": 6431342479,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "6,431,342,479",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Borrowings",
+        "value": "1,564,420,848",
+        "normalized_number": 1564420848,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "1,564,420,848",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Borrowings",
+        "value": "984,156,439",
+        "normalized_number": 984156439,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "984,156,439",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Other liabilities and provisions",
+        "value": "484,134,863",
+        "normalized_number": 484134863,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "484,134,863",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Other liabilities and provisions",
+        "value": "587,088,812",
+        "normalized_number": 587088812,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "587,088,812",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Capital and Liabilities",
+        "value": "11,031,861,695",
+        "normalized_number": 11031861695,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "11,031,861,695",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Capital and Liabilities",
+        "value": "8,923,441,607",
+        "normalized_number": 8923441607,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "8,923,441,607",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Cash and balances with Reserve Bank of India",
+        "value": "1,046,882,074",
+        "normalized_number": 1046882074,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "1,046,882,074",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Cash and balances with Reserve Bank of India",
+        "value": "379,105,485",
+        "normalized_number": 379105485,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "379,105,485",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Balances with banks and money at call and short notice",
+        "value": "183,733,488",
+        "normalized_number": 183733488,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "183,733,488",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Balances with banks and money at call and short notice",
+        "value": "114,005,711",
+        "normalized_number": 114005711,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "114,005,711",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Investments",
+        "value": "2,384,609,240",
+        "normalized_number": 2384609240,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "2,384,609,240",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Investments",
+        "value": "2,107,771,120",
+        "normalized_number": 2107771120,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "2,107,771,120",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Advances",
+        "value": "7,000,338,363",
+        "normalized_number": 7000338363,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "7,000,338,363",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Advances",
+        "value": "5,854,809,871",
+        "normalized_number": 5854809871,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "5,854,809,871",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Fixed assets",
+        "value": "38,105,583",
+        "normalized_number": 38105583,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "38,105,583",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Fixed assets",
+        "value": "38,146,997",
+        "normalized_number": 38146997,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "38,146,997",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Other assets",
+        "value": "378,192,947",
+        "normalized_number": 378192947,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "378,192,947",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Other assets",
+        "value": "429,602,423",
+        "normalized_number": 429602423,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "429,602,423",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Assets",
+        "value": "11,031,861,695",
+        "normalized_number": 11031861695,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "11,031,861,695",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Assets",
+        "value": "8,923,441,607",
+        "normalized_number": 8923441607,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "8,923,441,607",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Contingent liabilities",
+        "value": "8,757,769,674",
+        "normalized_number": 8757769674,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "8,757,769,674",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Contingent liabilities",
+        "value": "8,182,842,892",
+        "normalized_number": 8182842892,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "8,182,842,892",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Bills for collection",
+        "value": "427,538,250",
+        "normalized_number": 427538250,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "427,538,250",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Bills for collection",
+        "value": "308,480,352",
+        "normalized_number": 308480352,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "308,480,352",
+          "page_number": 1
+        }
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Balance Sheet",
+        "columns": [
+          "Particulars",
+          "31-Mar-18",
+          "31-Mar-17"
+        ],
+        "rows": [
+          [
+            "Capital",
+            "5,190,181",
+            "5,125,091"
+          ],
+          [
+            "Reserves and surplus",
+            "1,090,801,062",
+            "912,814,397"
+          ],
+          [
+            "Minority interest",
+            "3,563,322",
+            "2,914,389"
+          ],
+          [
+            "Deposits",
+            "7,883,751,419",
+            "6,431,342,479"
+          ],
+          [
+            "Borrowings",
+            "1,564,420,848",
+            "984,156,439"
+          ],
+          [
+            "Other liabilities and provisions",
+            "484,134,863",
+            "587,088,812"
+          ],
+          [
+            "Total Capital and Liabilities",
+            "11,031,861,695",
+            "8,923,441,607"
+          ],
+          [
+            "Cash and balances with Reserve Bank of India",
+            "1,046,882,074",
+            "379,105,485"
+          ],
+          [
+            "Balances with banks and money at call and short notice",
+            "183,733,488",
+            "114,005,711"
+          ],
+          [
+            "Investments",
+            "2,384,609,240",
+            "2,107,771,120"
+          ],
+          [
+            "Advances",
+            "7,000,338,363",
+            "5,854,809,871"
+          ],
+          [
+            "Fixed assets",
+            "38,105,583",
+            "38,146,997"
+          ],
+          [
+            "Other assets",
+            "378,192,947",
+            "429,602,423"
+          ],
+          [
+            "Total Assets",
+            "11,031,861,695",
+            "8,923,441,607"
+          ],
+          [
+            "Contingent liabilities",
+            "8,757,769,674",
+            "8,182,842,892"
+          ],
+          [
+            "Bills for collection",
+            "427,538,250",
+            "308,480,352"
+          ]
+        ],
+        "page_number": 1
+      }
+    ],
+    "invoice_line_items": []
+  },
+  "financial_validation_result": {
+    "document_type": "balance_sheet",
+    "checks": [
+      {
+        "check": "Balance sheet equation - 31-Mar-18",
+        "formula": "Total Capital and Liabilities ≈ Total Assets",
+        "input_values": {
+          "total_capital_and_liabilities": 11031861695,
+          "total_assets": 11031861695
+        },
+        "calculated": 11031861695,
+        "reported": 11031861695,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Capital and liabilities component reconciliation - 31-Mar-18",
+        "formula": "Capital + Reserves and Surplus + Minority Interest + Deposits + Borrowings + Other Liabilities and Provisions ≈ Total Capital and Liabilities",
+        "input_values": {
+          "capital": 5190181,
+          "reserves_and_surplus": 1090801062,
+          "minority_interest": 3563322,
+          "deposits": 7883751419,
+          "borrowings": 1564420848,
+          "other_liabilities_and_provisions": 484134863,
+          "reported_total": 11031861695
+        },
+        "calculated": 11031861695,
+        "reported": 11031861695,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Asset component reconciliation - 31-Mar-18",
+        "formula": "Cash + Bank Balances + Investments + Advances + Fixed Assets + Other Assets ≈ Total Assets",
+        "input_values": {
+          "cash_and_reserve_bank": 1046882074,
+          "balances_with_banks": 183733488,
+          "investments": 2384609240,
+          "advances": 7000338363,
+          "fixed_assets": 38105583,
+          "other_assets": 378192947,
+          "reported_total_assets": 11031861695
+        },
+        "calculated": 11031861695,
+        "reported": 11031861695,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Balance sheet equation - 31-Mar-17",
+        "formula": "Total Capital and Liabilities ≈ Total Assets",
+        "input_values": {
+          "total_capital_and_liabilities": 8923441607,
+          "total_assets": 8923441607
+        },
+        "calculated": 8923441607,
+        "reported": 8923441607,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Capital and liabilities component reconciliation - 31-Mar-17",
+        "formula": "Capital + Reserves and Surplus + Minority Interest + Deposits + Borrowings + Other Liabilities and Provisions ≈ Total Capital and Liabilities",
+        "input_values": {
+          "capital": 5125091,
+          "reserves_and_surplus": 912814397,
+          "minority_interest": 2914389,
+          "deposits": 6431342479,
+          "borrowings": 984156439,
+          "other_liabilities_and_provisions": 587088812,
+          "reported_total": 8923441607
+        },
+        "calculated": 8923441607,
+        "reported": 8923441607,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Asset component reconciliation - 31-Mar-17",
+        "formula": "Cash + Bank Balances + Investments + Advances + Fixed Assets + Other Assets ≈ Total Assets",
+        "input_values": {
+          "cash_and_reserve_bank": 379105485,
+          "balances_with_banks": 114005711,
+          "investments": 2107771120,
+          "advances": 5854809871,
+          "fixed_assets": 38146997,
+          "other_assets": 429602423,
+          "reported_total_assets": 8923441607
+        },
+        "calculated": 8923441607,
+        "reported": 8923441607,
+        "variance": 0,
+        "status": "PASS"
+      }
+    ],
+    "overall_status": "PASS"
+  },
+  "error_message": null,
+  "created_at": "2026-09-11T21:37:37.708590",
+  "updated_at": "2026-09-11T21:37:37.708598"
+}

@@ -1,0 +1,829 @@
+{
+  "id": 2,
+  "document_name": "Consolidated Cash Flow Statement 2022.pdf",
+  "document_type": "cash_flow",
+  "processing_status": "PASS",
+  "extraction_result": {
+    "document_type": "cash_flow",
+    "metadata": {
+      "document_title": "Consolidated Cash Flow Statement",
+      "document_date": "March 31, 2022",
+      "vendor_name": null,
+      "customer_name": null,
+      "entity_name": null,
+      "currency": "INR"
+    },
+    "periods": [
+      "Year ended March 31, 2022",
+      "Year ended March 31, 2021"
+    ],
+    "fields": [
+      {
+        "field_name": "Consolidated profit before income tax",
+        "value": "50,775.24",
+        "normalized_number": 50775.24,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "50,775.24",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Consolidated profit before income tax",
+        "value": "42,772.58",
+        "normalized_number": 42772.58,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "42,772.58",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Depreciation on fixed assets",
+        "value": "1,680.73",
+        "normalized_number": 1680.73,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "1,680.73",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Depreciation on fixed assets",
+        "value": "1,385.01",
+        "normalized_number": 1385.01,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "1,385.01",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "(Profit) / loss on revaluation of investments",
+        "value": "(1,546.40)",
+        "normalized_number": -1546.4,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(1,546.40)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "(Profit) / loss on revaluation of investments",
+        "value": "1,485.32",
+        "normalized_number": 1485.32,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "1,485.32",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Amortisation of premium on held to maturity investments",
+        "value": "821.32",
+        "normalized_number": 821.32,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "821.32",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Amortisation of premium on held to maturity investments",
+        "value": "765.47",
+        "normalized_number": 765.47,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "765.47",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "(Profit) / loss on sale of fixed assets",
+        "value": "3.25",
+        "normalized_number": 3.25,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "3.25",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "(Profit) / loss on sale of fixed assets",
+        "value": "0.29",
+        "normalized_number": 0.29,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "0.29",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Provision / charge for non performing assets",
+        "value": "13,286.95",
+        "normalized_number": 13286.95,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "13,286.95",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Provision / charge for non performing assets",
+        "value": "13,927.01",
+        "normalized_number": 13927.01,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "13,927.01",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Provision for standard assets and contingencies",
+        "value": "5,418.21",
+        "normalized_number": 5418.21,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "5,418.21",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Provision for standard assets and contingencies",
+        "value": "5,283.07",
+        "normalized_number": 5283.07,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "5,283.07",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Employee Stock Options Expense",
+        "value": "341.24",
+        "normalized_number": 341.24,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "341.24",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Employee Stock Options Expense",
+        "value": null,
+        "normalized_number": null,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": null,
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in investments",
+        "value": "(10,849.22)",
+        "normalized_number": -10849.22,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(10,849.22)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in investments",
+        "value": "(50,156.64)",
+        "normalized_number": -50156.64,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(50,156.64)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in advances",
+        "value": "(248,946.13)",
+        "normalized_number": -248946.13,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(248,946.13)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in advances",
+        "value": "(155,681.07)",
+        "normalized_number": -155681.07,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(155,681.07)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in deposits",
+        "value": "224,282.15",
+        "normalized_number": 224282.15,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "224,282.15",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in deposits",
+        "value": "187,513.74",
+        "normalized_number": 187513.74,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "187,513.74",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "(Increase) / decrease in other assets",
+        "value": "(40,044.70)",
+        "normalized_number": -40044.7,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(40,044.70)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "(Increase) / decrease in other assets",
+        "value": "8,307.68",
+        "normalized_number": 8307.68,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "8,307.68",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase / (decrease) in other liabilities and provisions",
+        "value": "7,655.94",
+        "normalized_number": 7655.94,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "7,655.94",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase / (decrease) in other liabilities and provisions",
+        "value": "(104.56)",
+        "normalized_number": -104.56,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(104.56)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Direct taxes paid (net of refunds)",
+        "value": "(14,838.16)",
+        "normalized_number": -14838.16,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(14,838.16)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Direct taxes paid (net of refunds)",
+        "value": "(13,021.45)",
+        "normalized_number": -13021.45,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(13,021.45)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net cash flow (used in) / from operating activities",
+        "value": "(11,959.57)",
+        "normalized_number": -11959.57,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(11,959.57)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net cash flow (used in) / from operating activities",
+        "value": "42,476.45",
+        "normalized_number": 42476.45,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "42,476.45",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Purchase of fixed assets",
+        "value": "(2,236.24)",
+        "normalized_number": -2236.24,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(2,236.24)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Purchase of fixed assets",
+        "value": "(1,696.15)",
+        "normalized_number": -1696.15,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(1,696.15)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proceeds from sale of fixed assets",
+        "value": "19.91",
+        "normalized_number": 19.91,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "19.91",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proceeds from sale of fixed assets",
+        "value": "15.28",
+        "normalized_number": 15.28,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "15.28",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net cash flow used in investing activities",
+        "value": "(2,216.33)",
+        "normalized_number": -2216.33,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(2,216.33)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net cash flow used in investing activities",
+        "value": "(1,680.87)",
+        "normalized_number": -1680.87,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(1,680.87)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in minority interest",
+        "value": "135.83",
+        "normalized_number": 135.83,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "135.83",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Increase in minority interest",
+        "value": "56.12",
+        "normalized_number": 56.12,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "56.12",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proceeds from issue of share capital, net of issue expenses",
+        "value": "2,609.76",
+        "normalized_number": 2609.76,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "2,609.76",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proceeds from issue of share capital, net of issue expenses",
+        "value": "1,760.10",
+        "normalized_number": 1760.1,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "1,760.10",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proceeds from issue of Additional Tier I and Tier II capital bonds",
+        "value": "8,312.75",
+        "normalized_number": 8312.75,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "8,312.75",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proceeds from issue of Additional Tier I and Tier II capital bonds",
+        "value": "356.50",
+        "normalized_number": 356.5,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "356.50",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Redemption of Tier II capital bonds",
+        "value": "(3,650.00)",
+        "normalized_number": -3650,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(3,650.00)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Redemption of Tier II capital bonds",
+        "value": "(1,105.00)",
+        "normalized_number": -1105,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(1,105.00)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net proceeds / (repayments) in other borrowings",
+        "value": "44,308.08",
+        "normalized_number": 44308.08,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "44,308.08",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net proceeds / (repayments) in other borrowings",
+        "value": "(8,389.07)",
+        "normalized_number": -8389.07,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(8,389.07)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Dividend paid during the year",
+        "value": "(3,592.40)",
+        "normalized_number": -3592.4,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "(3,592.40)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Dividend paid during the year",
+        "value": null,
+        "normalized_number": null,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": null,
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net cash flow from / (used in) financing activities",
+        "value": "48,124.02",
+        "normalized_number": 48124.02,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "48,124.02",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net cash flow from / (used in) financing activities",
+        "value": "(7,321.35)",
+        "normalized_number": -7321.35,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(7,321.35)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Effect of exchange fluctuation on translation reserve",
+        "value": "165.10",
+        "normalized_number": 165.1,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "165.10",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Effect of exchange fluctuation on translation reserve",
+        "value": "(141.83)",
+        "normalized_number": -141.83,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "(141.83)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net increase in cash and cash equivalents",
+        "value": "34,113.22",
+        "normalized_number": 34113.22,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "34,113.22",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net increase in cash and cash equivalents",
+        "value": "33,332.40",
+        "normalized_number": 33332.4,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "33,332.40",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Cash and cash equivalents as at April 1st",
+        "value": "121,272.51",
+        "normalized_number": 121272.51,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "121,272.51",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Cash and cash equivalents as at April 1st",
+        "value": "87,940.11",
+        "normalized_number": 87940.11,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "87,940.11",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Cash and cash equivalents as at March 31st",
+        "value": "155,385.73",
+        "normalized_number": 155385.73,
+        "period": "Year ended March 31, 2022",
+        "evidence": {
+          "source_text": "155,385.73",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Cash and cash equivalents as at March 31st",
+        "value": "121,272.51",
+        "normalized_number": 121272.51,
+        "period": "Year ended March 31, 2021",
+        "evidence": {
+          "source_text": "121,272.51",
+          "page_number": 1
+        }
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Consolidated Cash Flow Statement",
+        "columns": [
+          "Particulars",
+          "Year ended March 31, 2022",
+          "Year ended March 31, 2021"
+        ],
+        "rows": [
+          [
+            "Consolidated profit before income tax",
+            "50,775.24",
+            "42,772.58"
+          ],
+          [
+            "Depreciation on fixed assets",
+            "1,680.73",
+            "1,385.01"
+          ],
+          [
+            "(Profit) / loss on revaluation of investments",
+            "(1,546.40)",
+            "1,485.32"
+          ],
+          [
+            "Amortisation of premium on held to maturity investments",
+            "821.32",
+            "765.47"
+          ],
+          [
+            "(Profit) / loss on sale of fixed assets",
+            "3.25",
+            "0.29"
+          ],
+          [
+            "Provision / charge for non performing assets",
+            "13,286.95",
+            "13,927.01"
+          ],
+          [
+            "Provision for standard assets and contingencies",
+            "5,418.21",
+            "5,283.07"
+          ],
+          [
+            "Employee Stock Options Expense",
+            "341.24",
+            null
+          ],
+          [
+            "Increase in investments",
+            "(10,849.22)",
+            "(50,156.64)"
+          ],
+          [
+            "Increase in advances",
+            "(248,946.13)",
+            "(155,681.07)"
+          ],
+          [
+            "Increase in deposits",
+            "224,282.15",
+            "187,513.74"
+          ],
+          [
+            "(Increase) / decrease in other assets",
+            "(40,044.70)",
+            "8,307.68"
+          ],
+          [
+            "Increase / (decrease) in other liabilities and provisions",
+            "7,655.94",
+            "(104.56)"
+          ],
+          [
+            "Direct taxes paid (net of refunds)",
+            "(14,838.16)",
+            "(13,021.45)"
+          ],
+          [
+            "Net cash flow (used in) / from operating activities",
+            "(11,959.57)",
+            "42,476.45"
+          ],
+          [
+            "Purchase of fixed assets",
+            "(2,236.24)",
+            "(1,696.15)"
+          ],
+          [
+            "Proceeds from sale of fixed assets",
+            "19.91",
+            "15.28"
+          ],
+          [
+            "Net cash flow used in investing activities",
+            "(2,216.33)",
+            "(1,680.87)"
+          ],
+          [
+            "Increase in minority interest",
+            "135.83",
+            "56.12"
+          ],
+          [
+            "Proceeds from issue of share capital, net of issue expenses",
+            "2,609.76",
+            "1,760.10"
+          ],
+          [
+            "Proceeds from issue of Additional Tier I and Tier II capital bonds",
+            "8,312.75",
+            "356.50"
+          ],
+          [
+            "Redemption of Tier II capital bonds",
+            "(3,650.00)",
+            "(1,105.00)"
+          ],
+          [
+            "Net proceeds / (repayments) in other borrowings",
+            "44,308.08",
+            "(8,389.07)"
+          ],
+          [
+            "Dividend paid during the year",
+            "(3,592.40)",
+            null
+          ],
+          [
+            "Net cash flow from / (used in) financing activities",
+            "48,124.02",
+            "(7,321.35)"
+          ],
+          [
+            "Effect of exchange fluctuation on translation reserve",
+            "165.10",
+            "(141.83)"
+          ],
+          [
+            "Net increase in cash and cash equivalents",
+            "34,113.22",
+            "33,332.40"
+          ],
+          [
+            "Cash and cash equivalents as at April 1st",
+            "121,272.51",
+            "87,940.11"
+          ],
+          [
+            "Cash and cash equivalents as at March 31st",
+            "155,385.73",
+            "121,272.51"
+          ]
+        ],
+        "page_number": 1
+      }
+    ],
+    "invoice_line_items": []
+  },
+  "financial_validation_result": {
+    "document_type": "cash_flow",
+    "checks": [
+      {
+        "check": "Cash flow reconciliation - Year ended March 31, 2022",
+        "formula": "Operating + Investing + Financing + FX + Other Cash Adjustments ≈ Net Increase in Cash",
+        "input_values": {
+          "operating_cash_flow": -11959.57,
+          "investing_cash_flow": -2216.33,
+          "financing_cash_flow": 48124.02,
+          "foreign_exchange": 165.1,
+          "other_cash_adjustment": null,
+          "reported_net_increase": 34113.22
+        },
+        "calculated": 34113.219999999994,
+        "reported": 34113.22,
+        "variance": -7.275957614183426e-12,
+        "status": "PASS"
+      },
+      {
+        "check": "Opening/closing cash reconciliation - Year ended March 31, 2022",
+        "formula": "Opening Cash + Net Increase = Closing Cash",
+        "input_values": {
+          "opening_cash": 121272.51,
+          "net_increase": 34113.22,
+          "reported_closing_cash": 155385.73
+        },
+        "calculated": 155385.72999999998,
+        "reported": 155385.73,
+        "variance": -2.9103830456733704e-11,
+        "status": "PASS"
+      },
+      {
+        "check": "Cash flow reconciliation - Year ended March 31, 2021",
+        "formula": "Operating + Investing + Financing + FX + Other Cash Adjustments ≈ Net Increase in Cash",
+        "input_values": {
+          "operating_cash_flow": 42476.45,
+          "investing_cash_flow": -1680.87,
+          "financing_cash_flow": -7321.35,
+          "foreign_exchange": -141.83,
+          "other_cash_adjustment": null,
+          "reported_net_increase": 33332.4
+        },
+        "calculated": 33332.399999999994,
+        "reported": 33332.4,
+        "variance": -7.275957614183426e-12,
+        "status": "PASS"
+      },
+      {
+        "check": "Opening/closing cash reconciliation - Year ended March 31, 2021",
+        "formula": "Opening Cash + Net Increase = Closing Cash",
+        "input_values": {
+          "opening_cash": 87940.11,
+          "net_increase": 33332.4,
+          "reported_closing_cash": 121272.51
+        },
+        "calculated": 121272.51000000001,
+        "reported": 121272.51,
+        "variance": 1.4551915228366852e-11,
+        "status": "PASS"
+      }
+    ],
+    "overall_status": "PASS"
+  },
+  "error_message": null,
+  "created_at": "2026-09-11T21:25:25.720122",
+  "updated_at": "2026-09-11T21:25:25.720128"
+}
