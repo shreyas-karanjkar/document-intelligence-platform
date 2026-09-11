@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Intelligence Platform</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- Header -->
+    <header class="topbar">
+        <div>
+            <h1>Document Intelligence Platform</h1>
+            <p>Intelligent Document Extraction, Validation & API Platform</p>
+        </div>
+
+        <div class="health-indicator">
+            <span id="healthDot" class="health-dot"></span>
+            <span id="healthText">Checking API...</span>
+        </div>
+    </header>
+
+
+    <!-- Upload Section -->
+    <section class="card upload-card">
+
+        <div class="section-title">
+            <div>
+                <h2>Process Document</h2>
+                <p>Upload a financial document for extraction and validation.</p>
+            </div>
+        </div>
+
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label for="documentType">Document Type</label>
+
+                <select id="documentType">
+                    <option value="invoice">Invoice</option>
+                    <option value="balance_sheet">Balance Sheet</option>
+                    <option value="profit_loss">Profit & Loss</option>
+                    <option value="cash_flow">Cash Flow Statement</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label for="documentFile">Document</label>
+
+                <input
+                    type="file"
+                    id="documentFile"
+                    accept=".pdf,.jpg,.jpeg,.png"
+                >
+
+                <small>
+                    Supported formats: PDF, JPG, JPEG, PNG | Maximum 3 pages
+                </small>
+            </div>
+
+        </div>
+
+
+        <div class="upload-actions">
+
+            <button id="processButton" class="primary-button">
+                Process Document
+            </button>
+
+            <span id="uploadStatus" class="status-message"></span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Loading -->
+    <section id="loadingSection" class="card loading-card hidden">
+
+        <div class="spinner"></div>
+
+        <div>
+            <h3>Processing document...</h3>
+            <p>
+                Validating file, extracting text, running AI extraction
+                and performing financial validation.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- Result Section -->
+    <section id="resultSection" class="hidden">
+
+        <!-- Result Header -->
+        <div class="card result-header">
+
+            <div>
+                <h2 id="resultDocumentName">Document Result</h2>
+                <p id="resultDocumentType"></p>
+            </div>
+
+            <div id="processingStatus" class="status-badge">
+                -
+            </div>
+
+        </div>
+
+
+        <!-- Metadata -->
+        <div class="card">
+
+            <div class="section-title">
+                <h2>Document Metadata</h2>
+            </div>
+
+            <div id="metadataGrid" class="metadata-grid"></div>
+
+        </div>
+
+
+        <!-- Extracted Fields -->
+        <div class="card">
+
+            <div class="section-title">
+                <div>
+                    <h2>Extracted Fields</h2>
+                    <p>Structured information extracted from the document.</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Value</th>
+                            <th>Period</th>
+                            <th>Evidence</th>
+                            <th>Page</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="fieldsTableBody"></tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- Extracted Tables -->
+        <div class="card">
+
+            <div class="section-title">
+                <div>
+                    <h2>Extracted Tables</h2>
+                    <p>Tables and line-item information extracted from the document.</p>
+                </div>
+            </div>
+
+            <div id="tablesContainer"></div>
+
+        </div>
+
+
+        <!-- Financial Validation -->
+        <div class="card">
+
+            <div class="section-title">
+                <div>
+                    <h2>Financial Validation</h2>
+                    <p>Arithmetic and reconciliation checks performed on extracted values.</p>
+                </div>
+
+                <div id="validationOverallStatus" class="status-badge">
+                    -
+                </div>
+
+            </div>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Check</th>
+                            <th>Formula</th>
+                            <th>Calculated</th>
+                            <th>Reported</th>
+                            <th>Variance</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="validationTableBody"></tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- Invoice Line Items -->
+        <div id="invoiceSection" class="card hidden">
+
+            <div class="section-title">
+                <div>
+                    <h2>Invoice Line Items</h2>
+                    <p>Extracted invoice item-level information.</p>
+                </div>
+            </div>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Line Total</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="invoiceTableBody"></tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Processing History -->
+    <section class="card">
+
+        <div class="section-title">
+
+            <div>
+                <h2>Processing History</h2>
+                <p>Previously processed documents stored in the database.</p>
+            </div>
+
+            <button id="refreshHistoryButton" class="secondary-button">
+                Refresh
+            </button>
+
+        </div>
+
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Document</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                        <th>Processed At</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="historyTableBody"></tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Document Intelligence Platform · AI Engineer Intern Technical Case Study
+        </p>
+    </footer>
+
+</div>
+
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>

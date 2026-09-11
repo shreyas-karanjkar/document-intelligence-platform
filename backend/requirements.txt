@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+sqlalchemy
+python-dotenv
+pymupdf
+Pillow
+pytesseract
+google-genai
+psycopg[binary]
+psycopg2-binary
