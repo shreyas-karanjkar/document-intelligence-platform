@@ -1,0 +1,218 @@
+{
+  "id": 5,
+  "document_name": "batch3-1354.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "extraction_result": {
+    "document_type": "invoice",
+    "metadata": {
+      "document_title": "Invoice - Facture",
+      "document_date": "Jan 06 2022",
+      "vendor_name": "A.E. Blake Sales Ltd.",
+      "customer_name": "Oz Optics Ltd.",
+      "entity_name": null,
+      "currency": "CAD"
+    },
+    "periods": [],
+    "fields": [
+      {
+        "field_name": "invoice_number",
+        "value": "138236",
+        "normalized_number": 138236,
+        "period": null,
+        "evidence": {
+          "source_text": "NO: 138236",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "invoice_date",
+        "value": "Jan 06 2022",
+        "normalized_number": null,
+        "period": null,
+        "evidence": {
+          "source_text": "DATE: Jan 06 2022",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "customer_account",
+        "value": "10102028",
+        "normalized_number": 10102028,
+        "period": null,
+        "evidence": {
+          "source_text": "10102028",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "customer_po",
+        "value": "292539",
+        "normalized_number": 292539,
+        "period": null,
+        "evidence": {
+          "source_text": "292539",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "order_date",
+        "value": "Jun 24 2021",
+        "normalized_number": null,
+        "period": null,
+        "evidence": {
+          "source_text": "Jun 24 2021",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "aeb_order",
+        "value": "50001506",
+        "normalized_number": 50001506,
+        "period": null,
+        "evidence": {
+          "source_text": "50001506",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "terms",
+        "value": "Net 30 Days",
+        "normalized_number": null,
+        "period": null,
+        "evidence": {
+          "source_text": "Net 30 Days",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "subtotal",
+        "value": "1128.00",
+        "normalized_number": 1128,
+        "period": null,
+        "evidence": {
+          "source_text": "S. Total: $ 1,128.00",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "tax",
+        "value": "146.64",
+        "normalized_number": 146.64,
+        "period": null,
+        "evidence": {
+          "source_text": "13% HST: $ 146.64",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "total",
+        "value": "1274.64",
+        "normalized_number": 1274.64,
+        "period": null,
+        "evidence": {
+          "source_text": "Total: $ 1,274.64",
+          "page_number": 1
+        }
+      }
+    ],
+    "tables": [],
+    "invoice_line_items": [
+      {
+        "description": "BC 27767 Araldite 2014 HT Epoxy Paste GRAY 50ml 2:1 6 cartridges/box | 120 cartridges/case BC/REF# BC 27767 D.O.E on products",
+        "quantity": 24,
+        "unit_price": 23.5,
+        "line_total": 564,
+        "evidence": {
+          "source_text": "BC 27767 24 $23.50 KIT $564.00",
+          "page_number": 1
+        }
+      },
+      {
+        "description": "BC 27767 Araldite 2014 HT Epoxy Paste GRAY 50ml 2:1 6 cartridges/box | 120 cartridges/case BC/REF# BC 27767 D.O.E on products",
+        "quantity": 24,
+        "unit_price": 23.5,
+        "line_total": 564,
+        "evidence": {
+          "source_text": "BC 27767 24 $23.50 KIT $564.00",
+          "page_number": 1
+        }
+      }
+    ]
+  },
+  "financial_validation_result": {
+    "document_type": "invoice",
+    "checks": [
+      {
+        "check": "Invoice line item 1 calculation",
+        "formula": "Quantity × Unit Price ≈ Line Total",
+        "input_values": {
+          "quantity": 24,
+          "unit_price": 23.5,
+          "line_total": 564
+        },
+        "calculated": 564,
+        "reported": 564,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Invoice line item 2 calculation",
+        "formula": "Quantity × Unit Price ≈ Line Total",
+        "input_values": {
+          "quantity": 24,
+          "unit_price": 23.5,
+          "line_total": 564
+        },
+        "calculated": 564,
+        "reported": 564,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Invoice line-item subtotal reconciliation",
+        "formula": "Sum of Line Totals ≈ Reported Subtotal",
+        "input_values": {
+          "sum_of_line_totals": 1128,
+          "reported_subtotal": 1128
+        },
+        "calculated": 1128,
+        "reported": 1128,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Invoice total reconciliation",
+        "formula": "Subtotal + Tax - Discount + Additional Charges ≈ Total Amount",
+        "input_values": {
+          "subtotal": 1128,
+          "tax_amount": 146.64,
+          "discount": null,
+          "additional_charges": null,
+          "total_amount": 1274.64
+        },
+        "calculated": 1274.6399999999999,
+        "reported": 1274.64,
+        "variance": -2.2737367544323206e-13,
+        "status": "PASS"
+      },
+      {
+        "check": "Invoice cash/change reconciliation",
+        "formula": "Cash Paid - Total Amount ≈ Change",
+        "input_values": {
+          "cash_paid": null,
+          "total_amount": 1274.64,
+          "change": null
+        },
+        "calculated": null,
+        "reported": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE"
+      }
+    ],
+    "overall_status": "PASS"
+  },
+  "error_message": null,
+  "created_at": "2026-09-11T22:16:30.453454",
+  "updated_at": "2026-09-11T22:16:30.453463"
+}
