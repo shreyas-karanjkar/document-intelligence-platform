@@ -1,0 +1,745 @@
+{
+  "id": 1,
+  "document_name": "Consolidated Profit & Loss 2018.pdf",
+  "document_type": "profit_loss",
+  "processing_status": "PASS",
+  "extraction_result": {
+    "document_type": "profit_loss",
+    "metadata": {
+      "document_title": "Consolidated Statement of Profit and Loss",
+      "document_date": "2018-03-31",
+      "vendor_name": null,
+      "customer_name": null,
+      "entity_name": "HDFC Bank Limited",
+      "currency": "INR"
+    },
+    "periods": [
+      "31-Mar-18",
+      "31-Mar-17"
+    ],
+    "fields": [
+      {
+        "field_name": "Interest earned",
+        "value": "852,878,437",
+        "normalized_number": 852878437,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Interest earned 13 852,878,437",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Interest earned",
+        "value": "732,713,529",
+        "normalized_number": 732713529,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "interest earned 732,713,529",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Other income",
+        "value": "160,566,041",
+        "normalized_number": 160566041,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Other income 14 160,566,041",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Other income",
+        "value": "128,776,329",
+        "normalized_number": 128776329,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Other income 14 128,776,329",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Income",
+        "value": "1,013,444,478",
+        "normalized_number": 1013444478,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Total 1,013,444,478",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Income",
+        "value": "861,489,858",
+        "normalized_number": 861489858,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Total 861,489,858",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Interest expended",
+        "value": "423,814,803",
+        "normalized_number": 423814803,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Interest expended 15 423,814,803",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Interest expended",
+        "value": "380,415,844",
+        "normalized_number": 380415844,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Interest expended 15 380,415,844",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Operating expenses",
+        "value": "239,272,220",
+        "normalized_number": 239272220,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Operating expenses 16 239,272,220",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Operating expenses",
+        "value": "207,510,707",
+        "normalized_number": 207510707,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Operating expenses 16 207,510,707",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Provisions and contingencies",
+        "value": "164,749,045",
+        "normalized_number": 164749045,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Provisions and contingencies 164,749,045",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Provisions and contingencies",
+        "value": "120,689,285",
+        "normalized_number": 120689285,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Provisions and contingencies 120,689,285",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Expenditure",
+        "value": "827,836,068",
+        "normalized_number": 827836068,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Total 827,836,068",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Expenditure",
+        "value": "708,615,836",
+        "normalized_number": 708615836,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Total 708,615,836",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net profit for the year",
+        "value": "185,608,410",
+        "normalized_number": 185608410,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Net profit for the year 185,608,410",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Net profit for the year",
+        "value": "152,874,022",
+        "normalized_number": 152874022,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Net profit for the year 152,874,022",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Less: Minority interest",
+        "value": "513,389",
+        "normalized_number": 513389,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Less: Minority interest 513,389",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Less: Minority interest",
+        "value": "367,165",
+        "normalized_number": 367165,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Less: Minority interest 367,165",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Add: Share in profits of associates",
+        "value": "5,221",
+        "normalized_number": 5221,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Add: Share in profits of associates 5,221",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Add: Share in profits of associates",
+        "value": "23,393",
+        "normalized_number": 23393,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Add: Share in profits of associates 23,393",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Consolidated profit for the year attributable to the Group",
+        "value": "185,100,242",
+        "normalized_number": 185100242,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Consolidated profit for the year attributable to the Group 185,100,242",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Consolidated profit for the year attributable to the Group",
+        "value": "152,530,250",
+        "normalized_number": 152530250,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Consolidated profit for the year attributable to the Group 152,530,250",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Impact on amalgamation [Refer Schedule 18(1)]",
+        "value": null,
+        "normalized_number": null,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Impact on amalgamation [Refer Schedule 18(1)] -",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Impact on amalgamation [Refer Schedule 18(1)]",
+        "value": "274,507",
+        "normalized_number": 274507,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Impact on amalgamation [Refer Schedule 18(1)] 274,507",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Balance in Profit and Loss account brought forward",
+        "value": "345,323,284",
+        "normalized_number": 345323284,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Balance in Profit and Loss account brought forward 345,323,284",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Balance in Profit and Loss account brought forward",
+        "value": "248,255,886",
+        "normalized_number": 248255886,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Balance in Profit and Loss account brought forward 248,255,886",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Profit",
+        "value": "530,423,526",
+        "normalized_number": 530423526,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Total 530,423,526",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Profit",
+        "value": "401,060,643",
+        "normalized_number": 401060643,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Total 401,060,643",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to Statutory Reserve",
+        "value": "45,620,310",
+        "normalized_number": 45620310,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Transfer to Statutory Reserve 45,620,310",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to Statutory Reserve",
+        "value": "37,771,634",
+        "normalized_number": 37771634,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Transfer to Statutory Reserve 37,771,634",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proposed dividend [Refer Schedule 18(2)]",
+        "value": null,
+        "normalized_number": null,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Proposed dividend [Refer Schedule 18(2)] -",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Proposed dividend [Refer Schedule 18(2)]",
+        "value": null,
+        "normalized_number": null,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Proposed dividend [Refer Schedule 18(2)] -",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Tax (including cess) on interim / proposed dividend",
+        "value": "507,653",
+        "normalized_number": 507653,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Tax (including cess) on interim / proposed dividend 507,653",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Tax (including cess) on interim / proposed dividend",
+        "value": "255,959",
+        "normalized_number": 255959,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Tax (including cess) on interim / proposed dividend 255,959",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits",
+        "value": "33,905,804",
+        "normalized_number": 33905804,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits 33,905,804",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits",
+        "value": "(16,909)",
+        "normalized_number": -16909,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits (16,909)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to General Reserve",
+        "value": "17,486,728",
+        "normalized_number": 17486728,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Transfer to General Reserve 17,486,728",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to General Reserve",
+        "value": "14,549,641",
+        "normalized_number": 14549641,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Transfer to General Reserve 14,549,641",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to Capital Reserve",
+        "value": "2,355,227",
+        "normalized_number": 2355227,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Transfer to Capital Reserve 2,355,227",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to Capital Reserve",
+        "value": "3,134,100",
+        "normalized_number": 3134100,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Transfer to Capital Reserve 3,134,100",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to / (from) Investment Reserve Account",
+        "value": "(442,018)",
+        "normalized_number": -442018,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Transfer to / (from) Investment Reserve Account (442,018)",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Transfer to / (from) Investment Reserve Account",
+        "value": "42,934",
+        "normalized_number": 42934,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Transfer to / (from) Investment Reserve Account 42,934",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Balance carried over to Balance Sheet",
+        "value": "430,989,822",
+        "normalized_number": 430989822,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Balance carried over to Balance Sheet 430,989,822",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Balance carried over to Balance Sheet",
+        "value": "345,323,284",
+        "normalized_number": 345323284,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Balance carried over to Balance Sheet 345,323,284",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Appropriations",
+        "value": "530,423,526",
+        "normalized_number": 530423526,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Total 530,423,526",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "Total Appropriations",
+        "value": "401,060,643",
+        "normalized_number": 401060643,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Total 401,060,643",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "EARNINGS PER EQUITY SHARE - Basic",
+        "value": "71.73",
+        "normalized_number": 71.73,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Basic 71.73",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "EARNINGS PER EQUITY SHARE - Basic",
+        "value": "59.95",
+        "normalized_number": 59.95,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Basic 59.95",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "EARNINGS PER EQUITY SHARE - Diluted",
+        "value": "70.76",
+        "normalized_number": 70.76,
+        "period": "31-Mar-18",
+        "evidence": {
+          "source_text": "Diluted 70.76",
+          "page_number": 1
+        }
+      },
+      {
+        "field_name": "EARNINGS PER EQUITY SHARE - Diluted",
+        "value": "59.16",
+        "normalized_number": 59.16,
+        "period": "31-Mar-17",
+        "evidence": {
+          "source_text": "Diluted 59.16",
+          "page_number": 1
+        }
+      }
+    ],
+    "tables": [
+      {
+        "table_name": "Profit and Loss Statement",
+        "columns": [
+          "Particulars",
+          "31-Mar-18",
+          "31-Mar-17"
+        ],
+        "rows": [
+          [
+            "Interest earned",
+            "852,878,437",
+            "732,713,529"
+          ],
+          [
+            "Other income",
+            "160,566,041",
+            "128,776,329"
+          ],
+          [
+            "Total Income",
+            "1,013,444,478",
+            "861,489,858"
+          ],
+          [
+            "Interest expended",
+            "423,814,803",
+            "380,415,844"
+          ],
+          [
+            "Operating expenses",
+            "239,272,220",
+            "207,510,707"
+          ],
+          [
+            "Provisions and contingencies",
+            "164,749,045",
+            "120,689,285"
+          ],
+          [
+            "Total Expenditure",
+            "827,836,068",
+            "708,615,836"
+          ],
+          [
+            "Net profit for the year",
+            "185,608,410",
+            "152,874,022"
+          ],
+          [
+            "Less: Minority interest",
+            "513,389",
+            "367,165"
+          ],
+          [
+            "Add: Share in profits of associates",
+            "5,221",
+            "23,393"
+          ],
+          [
+            "Consolidated profit for the year attributable to the Group",
+            "185,100,242",
+            "152,530,250"
+          ],
+          [
+            "Impact on amalgamation [Refer Schedule 18(1)]",
+            null, "274,507"
+          ],
+          [
+            "Balance in Profit and Loss account brought forward",
+            "345,323,284",
+            "248,255,886"
+          ],
+          [
+            "Total Profit",
+            "530,423,526",
+            "401,060,643"
+          ],
+          [
+            "Transfer to Statutory Reserve",
+            "45,620,310",
+            "37,771,634"
+          ],
+          [
+            "Tax (including cess) on interim / proposed dividend",
+            "507,653",
+            "255,959"
+          ],
+          [
+            "Dividend (including tax / cess thereon) pertaining to previous year paid during the year, net of dividend tax credits",
+            "33,905,804",
+            "(16,909)"
+          ],
+          [
+            "Transfer to General Reserve",
+            "17,486,728",
+            "14,549,641"
+          ],
+          [
+            "Transfer to Capital Reserve",
+            "2,355,227",
+            "3,134,100"
+          ],
+          [
+            "Transfer to / (from) Investment Reserve Account",
+            "(442,018)",
+            "42,934"
+          ],
+          [
+            "Balance carried over to Balance Sheet",
+            "430,989,822",
+            "345,323,284"
+          ],
+          [
+            "Total Appropriations",
+            "530,423,526",
+            "401,060,643"
+          ],
+          [
+            "EARNINGS PER EQUITY SHARE - Basic",
+            "71.73",
+            "59.95"
+          ],
+          [
+            "EARNINGS PER EQUITY SHARE - Diluted",
+            "70.76",
+            "59.16"
+          ]
+        ],
+        "page_number": 1
+      }
+    ],
+    "invoice_line_items": []
+  },
+  "financial_validation_result": {
+    "document_type": "profit_loss",
+    "checks": [
+      {
+        "check": "Profit and loss total income reconciliation - 31-Mar-18",
+        "formula": "Interest Earned + Other Income ≈ Total Income",
+        "input_values": {
+          "interest_earned": 852878437,
+          "other_income": 160566041,
+          "reported_total_income": 1013444478
+        },
+        "calculated": 1013444478,
+        "reported": 1013444478,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Profit and loss total expenditure reconciliation - 31-Mar-18",
+        "formula": "Interest Expended + Operating Expenses + Provisions & Contingencies ≈ Total Expenditure",
+        "input_values": {
+          "interest_expended": 423814803,
+          "operating_expenses": 239272220,
+          "provisions_and_contingencies": 164749045,
+          "reported_total_expenditure": 827836068
+        },
+        "calculated": 827836068,
+        "reported": 827836068,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Profit after minority interest reconciliation - 31-Mar-18",
+        "formula": "Profit Before Minority Interest - Minority Interest ≈ Consolidated Net Profit",
+        "input_values": {
+          "profit_before_minority_interest": null,
+          "minority_interest": 513389,
+          "reported_consolidated_net_profit": null
+        },
+        "calculated": null,
+        "reported": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE"
+      },
+      {
+        "check": "Profit and loss total income reconciliation - 31-Mar-17",
+        "formula": "Interest Earned + Other Income ≈ Total Income",
+        "input_values": {
+          "interest_earned": 732713529,
+          "other_income": 128776329,
+          "reported_total_income": 861489858
+        },
+        "calculated": 861489858,
+        "reported": 861489858,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Profit and loss total expenditure reconciliation - 31-Mar-17",
+        "formula": "Interest Expended + Operating Expenses + Provisions & Contingencies ≈ Total Expenditure",
+        "input_values": {
+          "interest_expended": 380415844,
+          "operating_expenses": 207510707,
+          "provisions_and_contingencies": 120689285,
+          "reported_total_expenditure": 708615836
+        },
+        "calculated": 708615836,
+        "reported": 708615836,
+        "variance": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "Profit after minority interest reconciliation - 31-Mar-17",
+        "formula": "Profit Before Minority Interest - Minority Interest ≈ Consolidated Net Profit",
+        "input_values": {
+          "profit_before_minority_interest": null,
+          "minority_interest": 367165,
+          "reported_consolidated_net_profit": null
+        },
+        "calculated": null,
+        "reported": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE"
+      }
+    ],
+    "overall_status": "PASS"
+  },
+  "error_message": null,
+  "created_at": "2026-09-11T20:36:11.025233",
+  "updated_at": "2026-09-11T20:36:11.025240"
+}
